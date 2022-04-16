@@ -1,0 +1,57 @@
+.hero {
+    width: 90rem;
+    height: 29.5625rem;
+}
+
+.hero-content {
+    width: 41.2rem;
+    height: 29.5625rem;
+    margin-top: 7.25rem;
+}
+
+.hero-content2 {
+    width: 45.8rem;
+    height: 29.5625rem;
+    justify-content: center;
+    align-content: center;
+    margin-top: 116px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.9375rem;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #CAA945;
+}
+
+.subtext {
+    display: flex;
+    justify-content: center;
+    margin-left: 11.5rem;
+    margin-bottom: 1.125rem;
+    color: #f9faf8;
+}
+
+.subscribe {
+    width: 8.25rem;
+    height: 2.375rem;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 500;
+    border: none;
+    color: black;
+    background: linear-gradient(45deg, #816C25, #D7BE69);
+    transition: opacity 200ms ease-in-out;
+    
+}
+
+.subscribe:hover {
+    /*color: rgb(85, 83, 83);
+    background: #3c414a;*/
+    opacity: 0.5;
+}

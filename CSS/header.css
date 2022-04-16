@@ -1,0 +1,30 @@
+header {
+    width: 90rem;
+    height: 4.0625rem;
+    /*border: 1px solid #CAA945;*/
+}
+
+
+.logo {
+    height: 100%;
+    width: 12.5rem;
+    justify-content: flex-start;
+    margin-left: 10rem;
+}
+
+#links a {
+    margin-left: 1.75rem;
+    color: white;
+    text-decoration: none;
+    border-bottom: solid;
+    padding-bottom: 3px;
+}
+
+#links a:hover {
+    color: #CAA945;
+    transition: color 300ms ease-in-out;
+}
+
+#third {
+    margin-right: 13.0625rem;
+}
