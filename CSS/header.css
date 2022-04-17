@@ -1,7 +1,10 @@
 header {
     width: 90rem;
     height: 4.0625rem;
-    /*border: 1px solid #CAA945;*/
+    position: fixed;
+    margin-top: -0.5625rem;
+    background-color: #1f2937;
+    z-index: 1;
 }
 
 
@@ -22,7 +25,7 @@ header {
 
 #links a:hover {
     color: #CAA945;
-    transition: color 300ms ease-in-out;
+    transition: color 250ms ease-in-out;
 }
 
 #third {

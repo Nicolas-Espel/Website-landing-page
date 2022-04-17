@@ -1,0 +1,48 @@
+.middle {
+    width: 90rem;
+    height: 31.0625rem;
+    background-color: white;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    padding-top: 3.9375rem;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.image-links {
+    display: flex;
+    justify-content: center;
+    gap: 3.125rem;
+    padding-top: 2.5rem;
+}
+
+.image-links a {
+    text-decoration: none;
+    border: 3px solid #1f2937;
+    border-radius: 27px;
+    height: 200px;
+    transition: opacity 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    /*Having this z-index as 0 and the header as 1 makes sure the animation does'nt show up in front of the fixed header*/
+    z-index: 0;
+}
+
+.image-links a:hover {
+    opacity: .75;
+    transform: scale(1.1);
+    
+}
+
+.subtext2 {
+    text-align: center;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.tips {
+    border-radius: 25px;
+}

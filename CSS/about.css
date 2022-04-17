@@ -1,0 +1,63 @@
+.about-me {
+    width: 90rem;
+    height: 30.0625rem;
+    background-color: #c2c4c8;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1.875rem;
+    color: #1f2937;
+}
+
+.description {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3.125rem;
+    font-size: 20px;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+}
+
+.icons {
+    display: flex;
+    height: 11.5625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5625rem;
+}
+
+.icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.fa-linkedin {
+    color: white;
+    background-color: #0072b1;
+}
+
+.fa-instagram {
+    color: white;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.fa-facebook {
+    color: white;
+    background-color: #4267B2;
+}
+
+.fa-github {
+    background-color: black;
+    color: white;
+}
