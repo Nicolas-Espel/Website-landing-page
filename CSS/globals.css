@@ -22,3 +22,7 @@ body {
 .flex1 {
     display: flex;
 }
+
+.favicon {
+    background-color: #00FFFFFF;
+}

@@ -39,6 +39,7 @@
     height: 3.125rem;
     border-radius: 50%;
     text-decoration: none;
+    transition: opacity 250ms ease-in-out;
 }
 
 .fa-linkedin {
@@ -60,4 +61,8 @@
 .fa-github {
     background-color: black;
     color: white;
+}
+
+.icons a:hover {
+    opacity: .65;
 }

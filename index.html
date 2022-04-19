@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Business Page</title>
+    <link rel="shortcut icon" href="images/favicon-removebg-preview.ico" class="favicon">
+    <title>Selling Nico</title>
 </head>
 <body>
     <header>
@@ -15,8 +16,14 @@
                 <img src="images/a5dc42a1c52244b2b232d9cd2747e47a (1).jpg" alt="Nicolas Espel Realtor Logo"> 
             </a>  
 
-            <div id="links">
-                <a type="button" href="#">Book a consultation</a>
+            <a id="hamburger" href="#" class="hide-for-desktop">
+                <span></span>
+                <span></span>
+                <span></span>
+              </a>
+
+            <div id="links" class="hide-for-mobile">
+                <a type="button" href="#consultation">Book a consultation</a>
                 <a type="button" href="https://www.homesnap.com/Nicolas-Espel" target="_blank" rel="noopener noreferrer">View listings</a>
                 <a type="button" href="#about" id="third">About me</a>
             </div> 
@@ -28,6 +35,12 @@
             <h1>Nicolas Espel <br> Real Estate</h1>
             <p class="subtext">Welcome to my website. Here you will find all of the resources you need to buy, sell, or rent all things real estate. Just curious about the market? Click below to subscribe to my mailing list to recieve market updates, real estate tips and tricks, and fun facts!</p>
             <button class="subscribe subtext">Subscribe</button>
+            <div class="overlay"></div>
+            <div class="overlay-menu">
+                <a type="button" href="#consultation">Book a consultation</a>
+                <a type="button" href="https://www.homesnap.com/Nicolas-Espel" target="_blank" rel="noopener noreferrer">View listings</a>
+                <a type="button" href="#about">About me</a>
+            </div>
         </div>
         <div class="hero-content2 flex1">
             <h1>Hello</h1>
@@ -55,6 +68,18 @@
             <a href="https://github.com/Nicolas-Espel" target="_blank" rel="noopener noreferrer" class="fa fa-github"></a>
             </div>
     </section>
-</body>
+
+    <section class="cta">
+        <div class="cta-flexbox">
+            <h2 id="consultation">Want to schedule a 1 on 1 chat to discuss your options in this market?<br> Click the button below!</h2> 
+            
+        </div>  
+        <button class="cta-btn">Schedule</button>  
+    </section>
+
+    <footer>
+        <p class="footer">Copyright © Nicolas Espel Real Estate (SellingNico)<br> Partnered with The Odin Project 2022</p>
+    </footer>
+    <script src="index.js"></script>
 </body>
 </html>

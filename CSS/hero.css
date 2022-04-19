@@ -9,6 +9,48 @@
     margin-top: 7.25rem;
 }
 
+.overlay {
+    margin-top: -530px;
+    margin-left: -140px;
+    left: 20%;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    color: white;
+    background: linear-gradient(#1f2937, 80%, transparent);
+}
+
+.overlay-menu {
+    position: fixed;
+    display: block;
+    z-index: 1;
+    margin-top: -250px;
+    margin-left: 200px;
+    height: 350px;
+    width: 300px;
+    background-color: #1f2937;
+
+}
+
+.overlay-menu a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    left: 25%;
+    margin-top: 50px;
+    color: white;
+}
+
+.overlay-menu a:first-child {
+    margin-top: 90px;
+}
+
+.overlay-menu a:hover {
+    color: #CAA945;
+    transition: color 250ms ease-in-out;
+}
+
 .hero-content2 {
     width: 45.8rem;
     height: 29.5625rem;
@@ -54,3 +96,5 @@ h1 {
     background: #3c414a;*/
     opacity: 0.5;
 }
+
+

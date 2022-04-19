@@ -4,9 +4,9 @@ header {
     position: fixed;
     margin-top: -0.5625rem;
     background-color: #1f2937;
-    z-index: 1;
+    z-index: 2;
+    transition: ease all .2s;
 }
-
 
 .logo {
     height: 100%;
@@ -30,4 +30,200 @@ header {
 
 #third {
     margin-right: 13.0625rem;
+}
+
+#hamburger span {
+    display: block;
+    width: 26px;
+    height: 2px;
+    margin-right: 60px;
+    background-color: white;
+}
+
+#hamburger span:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+/*helper class to open hamburger menu when clicked via JavaScript*/
+
+.open {
+    background-color: red;
+}
+
+.to-hide {
+    display: none;
+    z-index: 0;
+}
+
+/*helper classes/queries that hide menu and links depending on size */
+
+.hide-for-mobile {
+    display: none;
+}
+
+.hide-for-desktop {
+    display: none;
+}
+
+@media all and (max-width: 700px) {
+    .hide-for-desktop {
+        display: block;
+    }
+}
+
+@media all and (min-width: 701px) {
+    .hide-for-mobile {
+        display: block;
+    }
+}
+
+
+/*Media queries for smooth transition to tablet*/
+@media all and (max-width: 1399px) {
+    header {
+        width: 89rem;
+        margin-left: -.5rem;
+    }
+}
+
+@media all and (max-width: 1350px) {
+    header {
+        width: 86rem;
+        margin-left: -1rem;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    header {
+        width: 84rem;
+        margin-left: -1.5rem;
+    }
+}
+
+@media all and (max-width: 1260px) {
+    header {
+        width: 82.5rem;
+        margin-left: -1.7rem;
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    header {
+        width: 80rem;
+        margin-left: -2rem;
+    }
+}
+
+/*Media queries for smooth transition to phone*/
+@media all and (max-width: 1199px) {
+    header {
+        width: 79rem;
+        margin-left: -2.2rem;
+    }
+}
+@media all and (max-width: 1150px) {
+    header {
+        width: 76rem;
+        margin-left: -2.4rem;
+    }
+}
+@media all and (max-width: 1100px) {
+    header {
+        width: 74rem;
+        margin-left: -2.6rem;
+    }
+}
+@media all and (max-width: 1060px) {
+    header {
+        width: 72.5rem;
+        margin-left: -2.8rem;
+    }
+}
+@media all and (max-width: 1000px) {
+    header {
+        width: 70rem;
+        margin-left: -3rem;
+    }
+}
+@media all and (max-width: 980px) {
+    header {
+        width: 68rem;
+        margin-left: -3.2rem;
+    }
+}
+@media all and (max-width: 940px) {
+    header {
+        width: 65rem;
+    }
+}
+@media all and (max-width: 900px) {
+    header {
+        width: 60rem;
+        margin-left: -4rem;
+        font-size: 12px;
+    }
+}
+@media all and (max-width: 800px) {
+    header {
+        width: 65;
+        margin-left: -3.2;
+    }
+}
+@media all and (max-width: 750px) {
+    header {
+        width: 62rem;
+        margin-left: -4.5rem;
+        font-size: 10px;
+    }
+}
+@media all and (max-width: 725px) {
+    header {
+        width: 58rem;
+        margin-left: -5rem;
+    }
+}
+@media all and (max-width: 700px) {
+    header {
+        width: 49.5rem;
+        margin-left: -5.6rem;
+    }
+}
+@media all and (max-width: 650px) {
+    header {
+        width: 44rem;
+        margin-left: -8rem;
+        font-size: 9px;
+    }
+}
+
+@media all and (max-width: 625px) {
+    header {
+        width: 41rem;
+    }
+}
+
+@media all and (max-width: 600px) {
+    header {
+        width: 40rem;
+        margin-left: -8.3rem;
+    }
+}
+
+@media all and (max-width: 530px) {
+    header {
+        width: 38rem;
+    }
+}
+
+@media all and (max-width: 486px) {
+    header {
+        width: 34rem;
+    }
+}
+
+@media all and (max-width: 430px) {
+    header {
+        width: 30rem;
+    }
 }
