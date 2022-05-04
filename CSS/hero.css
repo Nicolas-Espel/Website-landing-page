@@ -1,6 +1,8 @@
 .hero {
     width: 90rem;
     height: 29.5625rem;
+    transition: ease all .2s;
+    aspect-ratio: 1 / 1;
 }
 
 .hero-content {
@@ -10,6 +12,7 @@
 }
 
 .overlay {
+    display: none;
     margin-top: -530px;
     margin-left: -140px;
     left: 20%;
@@ -22,8 +25,8 @@
 }
 
 .overlay-menu {
+    display: none;
     position: fixed;
-    display: block;
     z-index: 1;
     margin-top: -250px;
     margin-left: 200px;
@@ -52,10 +55,24 @@
 }
 
 .hero-content2 {
+    display: block;
     width: 45.8rem;
     height: 29.5625rem;
     justify-content: center;
-    margin-top: 116px;
+    margin-top: 145px;
+}
+
+.b-card {
+    margin-left: 22%;
+    width: 311px;
+    height: 170px;
+}
+
+.b-card2 {
+    margin-left: 22%;
+    margin-top: 20px;
+    width: 311px;
+    height: 170px;
 }
 
 h1 {
@@ -65,6 +82,7 @@ h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #CAA945;
+    transition: ease all .2s;
 }
 
 .subtext {
@@ -97,4 +115,188 @@ h1 {
     opacity: 0.5;
 }
 
+@media all and (max-width: 1360px) {
+    .hero{
+        width: 87rem;
+    }
+}
 
+@media all and (max-width: 1300px) {
+    .hero{
+        width: 86rem;
+    }
+}
+
+@media all and (max-width: 1260px) {
+    .hero {
+        width: 84rem;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .hero{
+        width: 82rem;
+    }
+}
+
+@media all and (max-width: 1167px) {
+    .hero{
+        width: 80rem;
+    }
+    .subtext{
+        margin-left: 9.6rem;
+    }
+}
+
+@media all and (max-width: 1150px) {
+    .hero{
+        width: 74rem;
+    }
+    .subtext{
+        margin-left: 8.6rem;
+    }
+}
+
+
+@media all and (max-width: 1115px) {
+    .hero{
+        width: 70rem;
+    }
+    .subtext{
+        margin-left: 7.6rem;
+    }
+}
+
+@media all and (max-width: 1090px) {
+    .hero{
+        width: 68rem;
+    }
+    .subtext{
+        margin-left: 6.6rem;
+    }
+}
+
+@media all and (max-width: 1040px) {
+    .hero{
+        width: 63rem;
+    }
+    .subtext{
+        margin-left: 5.6rem;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .hero{
+        width: 58rem;
+    }
+    .subtext{
+        margin-left: 4.6rem;
+    }
+}
+
+@media all and (max-width: 970px) {
+    .hero{
+        width: 56rem;
+    }
+    .subtext{
+        margin-left: 4.6rem;
+    }
+}
+
+@media all and (max-width: 940px) {
+    .hero{
+        width: 53rem;
+    }
+    .subtext{
+        margin-left: 3.6rem;
+    }
+}
+
+@media all and (max-width: 890px) {
+    .hero{
+        width: 45rem;
+    }
+    h1{
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .hero{
+        width: 36rem;
+    }
+    .subtext{
+        margin-left: 1.8rem;
+        font-size: 14px;
+    }
+    h1{
+        font-size: 36px;
+        margin-left: 0.8rem;
+    }
+    .b-card, .b-card2{
+        width: 265px;
+        height: 145px;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .hero-content , .subtext{
+        display: block;
+        text-align: center;
+        margin-left: 6%;
+
+    }
+    .hero{
+        width: 1200px;
+    }
+    .subscribe{
+        margin-left: 40.5%;
+    }
+}
+@media all and (max-width: 650px) {
+    .hero-content , .subtext{
+        display: block;
+        text-align: center;
+        margin-left: 5%;
+
+    }
+    .hero{
+        width: 1000px;
+    }
+    .subscribe{
+        margin-left: 39.5%;
+    }
+}
+@media all and (max-width: 550px) {
+    .hero-content , .subtext{
+        display: block;
+        text-align: center;
+        margin-left: 5%;
+
+    }
+    .hero{
+        width: 800px;
+    }
+    .subscribe{
+        margin-left: 36.5%;
+    }
+}
+@media all and (max-width: 422px) {
+    .hero-content , .subtext{
+        display: block;
+        text-align: center;
+        margin-left: 6%;
+        font-size: 12px;
+
+    }
+    .hero{
+        width: 600px;
+    }
+    h1{
+        font-size: 36px;
+    }
+    .subscribe{
+        margin-left: 29.5%;
+        font-size: 14px;
+    }
+}

@@ -38,6 +38,18 @@ header {
     height: 2px;
     margin-right: 60px;
     background-color: white;
+    transition: all 250ms ease-in-out;
+    transform-origin: 4.2px 1px;
+}
+
+.hamburger-toggle span:first-child {
+    transform: rotate(45deg);
+}
+.hamburger-toggle span:nth-child(2) {
+    opacity: 0;
+}
+.hamburger-toggle span:last-child {
+    transform: rotate(-45deg);
 }
 
 #hamburger span:not(:last-child) {
@@ -45,10 +57,6 @@ header {
 }
 
 /*helper class to open hamburger menu when clicked via JavaScript*/
-
-.open {
-    background-color: red;
-}
 
 .to-hide {
     display: none;
@@ -63,6 +71,12 @@ header {
 
 .hide-for-desktop {
     display: none;
+}
+
+@media all and (max-width: 700px) {
+    #hide-for-desktop {
+        display: block;
+    }
 }
 
 @media all and (max-width: 700px) {
@@ -142,7 +156,7 @@ header {
 }
 @media all and (max-width: 1000px) {
     header {
-        width: 70rem;
+        width: 72rem;
         margin-left: -3rem;
     }
 }
@@ -154,12 +168,12 @@ header {
 }
 @media all and (max-width: 940px) {
     header {
-        width: 65rem;
+        width: 66rem;
     }
 }
 @media all and (max-width: 900px) {
     header {
-        width: 60rem;
+        width: 63rem;
         margin-left: -4rem;
         font-size: 12px;
     }
@@ -191,7 +205,7 @@ header {
 }
 @media all and (max-width: 650px) {
     header {
-        width: 44rem;
+        width: 49rem;
         margin-left: -8rem;
         font-size: 9px;
     }
@@ -199,30 +213,48 @@ header {
 
 @media all and (max-width: 625px) {
     header {
-        width: 41rem;
+        width: 47rem;
     }
 }
 
 @media all and (max-width: 600px) {
     header {
-        width: 40rem;
+        width: 46rem;
         margin-left: -8.3rem;
     }
 }
 
-@media all and (max-width: 530px) {
+@media all and (max-width: 550px) {
     header {
-        width: 38rem;
+        width: 43rem;
     }
 }
 
-@media all and (max-width: 486px) {
+@media all and (max-width: 500px) {
     header {
-        width: 34rem;
+        width: 40rem;
     }
 }
 
-@media all and (max-width: 430px) {
+@media all and (max-width: 460px) {
+    header {
+        width: 37rem;
+    }
+}
+
+@media all and (max-width: 420px) {
+    header {
+        width: 35rem;
+    }
+}
+
+@media all and (max-width: 400px) {
+    header {
+        width: 33rem;
+    }
+}
+
+@media all and (max-width: 344px) {
     header {
         width: 30rem;
     }
